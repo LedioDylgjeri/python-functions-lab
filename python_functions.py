@@ -25,3 +25,14 @@ def occurrences(str, str2):
 # print(occurrences('fleep floop', 'fe'))
 
 
+def product (*args):
+  total = 1
+  for arg in args:
+    total *= arg
+  return total
+
+
+print(product(-1, 4))
+print(product(2, 5, 5))
+print(product(4, 0.5, 5))
+
